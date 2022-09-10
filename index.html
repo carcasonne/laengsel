@@ -10,30 +10,38 @@
     <link rel="stylesheet" href="styles/colors.css">  
     <link rel="stylesheet" href="styles/main.css"> 
     <link rel="stylesheet" href="styles/icons.css"> 
+
+    <script type="text/javascript" src="scripts/searcher.js"></script>
+    <script type="text/javascript" src="scripts/quote.js"></script>
 </head>
 
 <html>
     <body>
         <div class="background"></div>
 
-        <div class="main-content"
-            <div>
-                <p>
-                    Det gaaer saa let, at træde i Lystens Dands; men naar det saa er længere henne, 
-                    og det er Lysten, der dandser med Mennesket mod hans Villie: det er en tung Dands!
+        <div class="main-content">
+            <div class="quote-container">
+                <p id="quote">
+                    Det gaaer saa let, at træde i Lystens Dands; men naar det saa er længere henne, og det er Lysten, der dandser med Mennesket mod hans Villie: det er en tung Dands!
                 </p>
             </div>
             
-            <div id="search-box">
-                <span id="input-pointer">></span>
-                <input id="search-input" autocomplete="off" type="text" title="Search" autofocus onkeydown="search(event)">
+            <div class="search-container">
+                <div id="search-box">
+                    <span id="input-pointer">></span>
+                    <input id="search-input" autocomplete="off" type="text" title="Search" autofocus onkeydown="search(event)">
+                </div>
 
-                <!-- <div class="loupe"></div> looks like shit-->
+                <div class="search-options-container">
+                    <div id="search__google"><p class="search-option">G</p></div>
+                    <div id="search__youtube"><p class="search-option">U</p></div>
+                    <div id="search__duck"><p class="search-option">D</p></div>
+                </div>
             </div>
+            
 
         </div>
 
-
-        <script src="scripts/initial.js"></script>
+        <script src="scripts/loadAfterBody.js"></script>
     </body>
 </html> 

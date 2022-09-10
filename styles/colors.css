@@ -4,5 +4,12 @@
 
     --main-bg-color: white;
     --main-bg-contrast: black;
+
+    --bg-complement-color: rgb(209, 205, 205);
+    --bg-complement-font: white;
+
+    --search-first-color: rgb(255, 204, 0);
+    --search-second-color: rgb(255, 80, 80);
+    --search-third-color: rgb(51, 153, 102);
   }
   

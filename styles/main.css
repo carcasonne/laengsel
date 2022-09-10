@@ -2,6 +2,11 @@ body {
     background-color: black;
 }
 
+@font-face {
+    font-family:"modern";
+    src: url("../ressources/Fonts/LemonMilkLight-owxMq.otf");
+}
+
 .background {
     position: absolute;
     left: 0;
@@ -21,22 +26,44 @@ body {
 }
 
 .main-content {
-    height: 800px;
+    height: 100vh;
     position: relative;
 }
 
-#search-box {
+.quote-container {
+    width: 30%;
+
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#quote {
+    font-style: italic;
+    font-size: 18px;
+    flex-wrap: wrap;
+}
+
+.search-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 
     width: 30%;
 
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 60%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+#search-box {
+    display: flex;
+    flex-direction: row;
     border-bottom: 1px solid rgb(173, 173, 173);
 }
 
@@ -52,6 +79,41 @@ body {
 #input-pointer {
     margin-top: 8px;
 }
+
+.search-options-container {
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.search-options-container > * {
+    width: 30px;
+    height: 30px;
+
+    text-align: center;
+
+    background-color: var(--bg-complement-color);
+    border-radius: 20px;
+}
+
+.search-option {
+    margin-left: auto;
+    margin-right: auto;
+
+    color:var(--bg-complement-font);
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: modern;
+}
+
+#search__google {
+    background-color: var(--search-second-color);
+}
+
 
 /* #search-input:focus {
     background-color: rgb(247, 247, 247);
