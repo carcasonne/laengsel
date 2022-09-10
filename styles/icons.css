@@ -1,0 +1,10 @@
+.loupe {
+    width: 20px;
+    height: 20px;
+
+    margin-left: -25px;
+    margin-top: 2px;
+
+    background-image: url("../ressources/Icons/zoom.png");
+    background-size: cover;
+}

@@ -6,14 +6,32 @@
 
     <title>længsel</title>
 
-    <link rel="stylesheet" href="styles/reset.css"> 
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/colors.css">  
+    <link rel="stylesheet" href="styles/main.css"> 
+    <link rel="stylesheet" href="styles/icons.css"> 
 </head>
 
 <html>
     <body>
+        <div class="background"></div>
 
-        <h1>My First Heading</h1>
-        <p>My first paragraph.</p>
+        <div class="main-content"
+            <div>
+                <p>
+                    Det gaaer saa let, at træde i Lystens Dands; men naar det saa er længere henne, 
+                    og det er Lysten, der dandser med Mennesket mod hans Villie: det er en tung Dands!
+                </p>
+            </div>
+            
+            <div id="search-box">
+                <span id="input-pointer">></span>
+                <input id="search-input" autocomplete="off" type="text" title="Search" autofocus onkeydown="search(event)">
+
+                <!-- <div class="loupe"></div> looks like shit-->
+            </div>
+
+        </div>
 
 
         <script src="scripts/initial.js"></script>

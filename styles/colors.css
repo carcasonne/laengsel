@@ -1,0 +1,8 @@
+:root {
+    --main-bg-color: #161616;
+    --main-bg-contrast: white;
+
+    --main-bg-color: white;
+    --main-bg-contrast: black;
+  }
+  
