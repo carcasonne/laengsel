@@ -22,6 +22,20 @@ function load_quote() {
     quotes.push("Kun i Bevægelse er Sundheden og Frelsen at finde. Nægter Nogen, at Bevægelsen er til: saa gjør jeg som Diogenes, saa gaaer jeg. Negter Nogen, at Sundheden er i Bevægelsen, saa gaaer jeg fra alle sygelige Indvendinger. Naar man saaledes bliver ved at gaae, saa gaaer det nok.");
     quotes.push("Aands-Existents, især den religieuse, er ikke let; den Troende ligger bestandigt paa Dybet, har 70,000 Favne Vand under sig.");
 
+    // Nydansk
+    quotes.push("Hvad vil mennesket med det evige liv, hvis det keder sig søndag eftermiddag?");
+    quotes.push("Ak, af alle Fjender er maaskee Vanen den lumskeste, og fremfor Alt er den lumsk nok til aldrig at lade sig blive seet, thi Den, der saae Vanen, han er frelst fra Vanen");
+    quotes.push("Hvis jeg var far og havde en datter, som blev forført, hende ville jeg ikke opgive, men en søn, som blev journalist, ham ville jeg anse for være tabt");
+    quotes.push("Når jeg hører nogen sukke, »livet er så hårdt«, <br> fristes jeg altid til at spørge: »Sammenlignet med hvad?«");
+    quotes.push("Bønnen forandrer ikke Gud, men den forandrer den bedende");
+    quotes.push("De fleste mennesker haste så stærkt efter nydelsen, at de haste den forbi");
+    quotes.push("Alle vil udvikling, ingen vil forandring");
+    quotes.push("Angsten er frihedens svimmelhed");
+    quotes.push("Glem ikke at elske dig selv");
+    quotes.push("Folk forstår mig så lidt, at de ikke engang forstår mine klager over, at de ikke forstår mig");
+    quotes.push("At bedrage sig selv for kærlighed er det forfærdeligste, er et evigt tab, for hvilket der ingen erstatning er hverken i tid eller i evighed");
+    quotes.push("Livet er ikke et problem der skal løses, men en virkelighed der skal opleves");
+
     var rnd = Math.floor(Math.random() * quotes.length);
 
     return quotes[rnd];
